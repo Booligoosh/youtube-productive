@@ -4,6 +4,9 @@ const searchParams = new URLSearchParams(location.search)
 const videoId = searchParams.get('v')
 if (!videoId) alert('Please add ?v=... to the URL!')
 iframe.src = `https://www.youtube.com/embed/${videoId}`
+// https://stackoverflow.com/a/5155064
+fetch(`https://cors-anywhere.herokuapp.com/https://www.youtube.com/oembed?url=http://www.youtube.com/watch?v=${videoId}&format=json`)
+.then(r => r.json()).then(data => document.title = `${data.title} - YouTube productive`)
 </script>
 <style>
 * { box-sizing: border-box }
