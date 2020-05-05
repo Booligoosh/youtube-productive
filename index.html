@@ -1,0 +1,13 @@
+<iframe width="560" height="315" id="iframe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script>
+const searchParams = new URLSearchParams(location.search)
+iframe.src = `https://www.youtube.com/embed/${searchParams.get('v')}`
+</script>
+<style>
+* { box-sizing: border-box }
+body { margin: 0 }
+iframe {
+  width: 100vw;
+  height: 100vh;
+}
+</style>
