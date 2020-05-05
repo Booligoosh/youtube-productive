@@ -1,0 +1,11 @@
+<svg width="144" height="144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- https://yoksel.github.io/svg-filters/#/ -->
+  <filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+    <feColorMatrix type="hueRotate" values="125" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" result="colormatrix1"></feColorMatrix>
+  </filter>
+  <!--
+    https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png
+    https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png
+  -->
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAABDklEQVRYw+2X4Y2CQBSEv3e5ArgOKIEO3BK0A0uhBDsRO8AOtgMpYTuY+yErRL3cobLrJUwyISGEmWTfm/fWJJETH2TGYiC7gc+7b80KoALKngBu4r/b/tn19Ejh5itJA6EStALNxFZQjTWvxcOM4pFhbGJsoEkgHtlEXbsEkVnaRJJs6AKzMnn5nwv90obTDKzXr7BQPZ4D+z20LZRlxiBarcB7qOtna0EI3KQqvob3knNTO8ENbfisgYjdTiqKSQayz4J/fgQhSHX9aBo6ST9Mw7/geITtFrpuhnH8GzYbaJrXBKKkGMWnxOX3hRTeZBidcUgof7jdiLIvJJlWMrt7M0q4lNpyNVsM5DbwDTlqsJtbbh7VAAAAAElFTkSuQmCC" height="144" width="144" filter="url(#filter)"></image>
+</svg>
